@@ -1,10 +1,9 @@
 {
   "name": "agario",
   "main": "./lib/agario",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Play agar.io in atom!",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "agario:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
