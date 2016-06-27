@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle agario",
+        "command": "agario:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "agario",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "agario:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
